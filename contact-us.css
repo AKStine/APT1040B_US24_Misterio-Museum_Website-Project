@@ -1,0 +1,26 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+      
+        .images img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
