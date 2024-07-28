@@ -1,0 +1,48 @@
+ body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+       
+        }
+        .testimonials-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+        
+        .testimonial {
+            background-color: rgb(86, 113, 248);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            flex-basis: calc(50% - 10px);
+
+               
+        }
+        .testimonial img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .testimonial-content {
+            max-width: 70%;
+        }
+        .testimonial-content p {
+            font-size: 1.1em;
+            color:snow;
+        }
